@@ -1,0 +1,28 @@
+baseURL: https://example.com/
+languageCode: en-US
+title: SUDRA
+disqusShortname: ''
+googleAnalytics: ''
+theme: hugo-sustain
+permalinks:
+  post: /:year/:month/:day/:slug
+params:
+  author: Taimur Hassan
+  avatar: /img/logo.png
+  custom_css: []
+  custom_js: []
+  description: Your road to recovery begins here...
+  social:
+    Email: admin@sudrasupport.com
+    LinkedIn: taimur-hassan-mph
+
+menu:
+  main:
+    - identifier: Resources
+      name: Resources
+      url: /resources/
+      weight: 300
+     - identifier: About Us
+      name: aboutus
+      url: /aboutus/
+      weight: 200
